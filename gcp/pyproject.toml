@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mechatrax_gcp"
+version = "0.1.0"
+description = ""
+authors = ["shikajiro <shikajiro@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.25.1"
+Flask = "^1.1.2"
+google-cloud-pubsub = "^2.4.1"
+
+[tool.poetry.dev-dependencies]
+functions-framework = "^2.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
